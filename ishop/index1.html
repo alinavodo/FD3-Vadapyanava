@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IShop</title>
+</head>
+<body>
+    <div id="container"></div>
+
+    <script src="https://unpkg.com/react@15/dist/react.js"></script> 
+    <script src="https://unpkg.com/react-dom@15/dist/react-dom.js"></script>
+
+    <script src="Ishop.js"></script>
+    <link rel="stylesheet" type="text/css" href="Ishop.css" />
+    
+    <script src="Goods.js"></script>
+    <link rel="stylesheet" type="text/css" href="Goods.css" />
+
+    <script src="TextShop.js"></script>
+    <link rel="stylesheet" type="text/css" href="TextShop.css" />
+
+    <script>
+
+        var text = 'fruit and vegetable shop';
+
+     
+        var goodsArr = [{
+        name: 'banana',
+        price: 1.5,
+        photo: 'https://pngicon.ru/file/uploads/banan-128x128.png',
+        quantity: 5,
+        code: 1,
+    },
+    {
+        name: 'apple',
+        price: 0.85,
+        photo: 'https://pngicon.ru/file/uploads/2_50-128x128.png',
+        quantity: 10,
+        code: 2,
+    },
+    {
+        name: 'pear',
+        price: 3.2,
+        photo: 'https://pngicon.ru/file/uploads/2_53-128x128.png',
+        quantity: 15,
+        code: 3,
+    },
+    {
+        name: 'orange',
+        price: 1.25,
+        photo: 'https://pngicon.ru/file/uploads/apelsiny-128x125.png',
+        quantity: 10,
+        code: 4,
+    },
+    {
+        name: 'plum',
+        price: 2.75,
+        photo: '',
+        quantity: 5,
+        code: 5,
+    },
+    {
+        name: 'grape',
+        price: 3.45,
+        photo: 'https://pngicon.ru/file/uploads/vinograd-2-128x102.png',
+        quantity: 4,
+        code: 6,
+    },
+    {
+        name: 'raspberries',
+        price: 7.25,
+        photo: 'https://pngicon.ru/file/uploads/malina-128x91.png',
+        quantity: 1,
+        code: 7,
+    },
+    {
+        name: 'cherry',
+        price: 3.15,
+        photo: 'https://pngicon.ru/file/uploads/vishnja-128x100.png',
+        quantity: 3,
+        code: 8,
+    },
+];
+
+    ReactDOM.render(
+        React.createElement(Goods,
+        {
+            textName: text,
+            goods: goodsArr,
+        }),
+        document.getElementById('container')
+    );
+
+      
+
+    </script>
+    
+</body>
+</html>
