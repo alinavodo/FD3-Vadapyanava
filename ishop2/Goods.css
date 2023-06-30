@@ -1,0 +1,35 @@
+body{
+    text-align: center;
+    background-color: burlywood;
+}
+
+table{
+    margin: auto;
+    background-color: burlywood;
+    border: 1px wheat solid;
+}
+
+td{
+    border: 1px solid wheat;
+}
+
+.Goods{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: brown;
+    margin: 5px;
+}
+
+button{
+    margin: 5px auto;
+    width: 15px;
+    height: 15px;
+    background-color: whitesmoke;
+    border: none;
+    border-radius: 5px;
+
+}
+
+button:hover{
+    background-color: brown;
+}
