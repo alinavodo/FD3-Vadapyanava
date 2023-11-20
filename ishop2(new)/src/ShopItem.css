@@ -1,0 +1,45 @@
+body{
+    text-align: center;
+    background-color: burlywood;
+}
+
+table{
+    margin: auto;
+    background-color: burlywood;
+    border: 1px wheat solid;
+}
+
+td{
+    border: 1px solid wheat;
+}
+
+.Goods{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: brown;
+    margin: 5px;
+}
+
+.button{
+    margin: 10px 5px;
+    width: 41px;
+    height: 25px;
+    background-color: white;
+    border: brown 2px solid;
+    border-radius: 5px;
+
+}
+
+
+
+.selectGood{
+    background-color: grey; 
+
+}
+
+
+
+
+
+
+    

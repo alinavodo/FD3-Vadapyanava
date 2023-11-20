@@ -1,0 +1,9 @@
+.add_button{
+    margin-top: 25px;
+    width: 105px;
+    height: 25px;
+    background-color: white;
+    border: brown 2px solid;
+    border-radius: 5px;
+
+}

@@ -1,0 +1,19 @@
+
+.error{
+    margin-top: 0px;
+    font-size: 10px;
+    position: absolute;
+    color: red;
+    left: 250px;
+}
+
+.line{
+    margin: 25px;
+}
+
+.editTitle{
+    font-style: italic;
+    color: grey;
+    font-size: 20px;
+}
+
