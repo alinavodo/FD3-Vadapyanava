@@ -1,0 +1,39 @@
+li{
+    list-style-type:  none; 
+    padding: 5px;
+}
+
+ul{
+   padding: 10px; 
+}
+.sort_label{
+    position: relative;
+}
+
+.sort_popup {
+    position: absolute;
+    top: 10px;
+    background-color: #403F3D;
+    color: aliceblue;
+    z-index: 5;
+    width: 180px;
+    border-radius: 15px;
+}
+
+li:hover{
+    color: #000;
+    cursor: pointer;
+}
+
+
+@media (max-width: 510px) {
+    .sort_popup {
+        position: absolute;
+        top: 100px;
+        background-color: #403F3D;
+        color: aliceblue;
+        z-index: 5;
+        width: 180px;
+        border-radius: 15px;
+    }
+}

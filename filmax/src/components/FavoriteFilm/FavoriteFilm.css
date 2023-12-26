@@ -1,0 +1,27 @@
+.favorite_films {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.favorite_film {
+    display: flex;
+    gap: 20px;
+    margin: 15px;
+}
+
+.favorite_img {
+    max-width: 100px;
+    border-radius: 20px;
+  
+}
+
+.favorite_delete {
+    cursor: pointer;
+    font-size: 25px;
+}
+
+.favorite_delete:hover {
+    color: aliceblue;
+  
+}

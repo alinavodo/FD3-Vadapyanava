@@ -1,0 +1,28 @@
+.favorite_list {
+    max-width: 80%;
+}
+
+.favorite_top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.favorite_title{
+    padding-left: 25px;
+    font-size: 25px;
+    font-style: italic;
+}
+
+.favorite_clear {
+    font-size: 30px;
+    margin-top: 25px;
+    cursor: pointer;
+}
+
+.favorite_clear:hover {
+    color: bisque;
+}
+
+.favorite_items {
+    width: 100%;
+}

@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+}
+  
+html {
+    scroll-behavior: smooth;
+}
+
+.noscroll {
+    overflow: hidden;
+}
+
+.app{
+    display: flex;
+    flex-direction: column;
+    max-width: 1400px;
+    justify-content: center;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: #E1D4C9;
+    font-family: Inter;
+}
+
+a {
+    text-decoration:none;
+    color: #403F3D;
+}
+
+.container {
+    display: flex;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+
+.movies {
+    display: flex;
+    align-items: center;
+    height: 300px;
+    margin-bottom: 300px;
+    transform: translateX(0);
+    transition: all 1s ease-in-out;
+}
+
+.content {
+    margin-top: 100px;
+    max-width: 1440px;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    display: flex;
+}
+

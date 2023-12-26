@@ -1,0 +1,15 @@
+.list{
+    margin-top: 150px;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: center;
+    color: #403F3D;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.list_slogan {
+   margin: 0 auto;
+}

@@ -1,0 +1,35 @@
+.search {
+  position: relative;
+}
+
+.input {
+  background-color:  #C1B6AD;
+  border: 1px solid  #E1D4C9;
+  color: #403F3D;
+  padding: 12px 20px;
+  max-width: 200px;
+  border-radius: 20px;
+  font-size: 15px;
+}
+
+input:focus {
+  border: 3px solid #E1D4C9;
+  background-color: #403F3D;
+  color: #E1D4C9;
+}
+
+.cross {
+  width: 18px;
+  height: 18px;
+  opacity: 0.3;
+  position: absolute;
+  right: 15px;
+  top: 10px;
+  cursor: pointer;
+
+
+}
+
+.cross:hover {
+  opacity: 0.8;
+}

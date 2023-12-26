@@ -1,0 +1,47 @@
+.pagination {
+    text-align: center;
+}
+
+.pagination li {
+    display: inline-block;
+    margin: 5px;
+}
+
+.pagination a {
+    text-align: center;
+    width: 45px;
+    height: 45px;
+    border: 1px solid #C1B6AD;
+    border-radius: 30px;
+    padding-top: 10px;
+    cursor: pointer;
+    display: inline-block;
+  
+}
+
+.pagination  a:hover {
+    background-color: #665F55;;
+    color: #fff;
+}
+  
+.pagination .selected {
+    background-color: white; 
+    border-radius: 30px;
+}
+ 
+
+@media (min-width: 768px) {
+    .pagination a {
+        text-align: center;
+        width: 35px;
+        height: 35px;
+        border: 1px solid #C1B6AD;
+        border-radius: 17px;
+        padding-top: 7px;
+        cursor: pointer;
+        display: inline-block;
+      
+    }
+    
+}
+  
